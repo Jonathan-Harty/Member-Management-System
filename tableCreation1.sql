@@ -1,0 +1,16 @@
+DROP TABLE members;
+CREATE TABLE members(ID int(11) auto_increment, First_Name varchar(30), Last_Name varchar(30), Facility varchar(50),
+						 Cell_Phone varchar(11), Email varchar(100), Birthday varchar(18), Active varchar(6),
+						 Alumni varchar(6), Member_Status varchar(30), Total_Miles varchar(6), Shirt_Size varchar(20),
+                         Shoe_Size varchar(20), Gear_Date varchar(200), Orientation_Date varchar(18), Winter_Gear_Date varchar(18),
+                         Resume varchar(6), Referral_Notes TEXT, Next_Steps_Orientation varchar(45),
+                         Next_Steps_Goal_Setting_Paperwork varchar(45), Next_Steps_One_On_One varchar(45),
+                         Earned_5_Miles tinyint(1), Received_5_Miles tinyint(1),
+                         Earned_25_Miles tinyint(1), Received_25_Miles tinyint(1),
+                         Earned_50_Miles tinyint(1), Received_50_Miles tinyint(1),
+                         Earned_75_Miles tinyint(1), Received_75_Miles tinyint(1),
+                         Earned_100_Miles tinyint(1), Received_100_Miles tinyint(1),
+                         Earned_175_Miles tinyint(1), Received_175_Miles tinyint(1),
+                         Earned_200_Miles tinyint(1), Received_200_Miles tinyint(1),
+                         Earned_375_Miles tinyint(1), Received_375_Miles tinyint(1), 
+                         Primary Key(ID));
